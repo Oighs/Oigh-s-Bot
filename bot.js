@@ -35,7 +35,7 @@ db.defaults({ histoires: [], xp: [], server_database: [], idées: []}).write()
 
 var storynumber = db.get('histoires').size().value();
 
-bot.login(config.token);
+bot.login(process.env.TOKEN);
 
 bot.on(("ready"), ()=> {
     console.log("☻Bot démarré !!☻")
