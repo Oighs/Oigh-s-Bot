@@ -5,7 +5,6 @@ const FileSync = require ("lowdb/adapters/FileSync");
 const weather = require("weather-js");
 const Wiki = require("wikijs");
 
-const emoji = require("./emoji.json")
 const config = require("./config.json");
 
 var pref = config.prefix
