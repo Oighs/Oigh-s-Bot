@@ -1,6 +1,6 @@
 {
     "prefix": "###",
-    "token": process.env.TOKEN,
+    "token": "process.env.TOKEN",
     "creator": "<@384605052041560064>",
     "ownerID": ""
 }
