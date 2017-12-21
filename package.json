@@ -9,6 +9,10 @@
   "license": "ISC",
   "dependencies": {
    "discord.js": "^11.2.1",
+    "discord-bot-github": "^0.3.0",
+    "discord-eco": "0.0.10",
+    "weather-js": "^2.0.0",
+    "wikijs": "^4.5.0"
   },
   "devDependencies": {},
   "description": ""
