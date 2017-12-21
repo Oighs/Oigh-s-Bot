@@ -1,0 +1,9 @@
+
+{
+  "name": "Oigh's BotTM",
+  "version": "vChristmas-Exclusivity",
+  "description": "Bot FR en dévellopement",
+  "main": "bot.js",
+  "author": "Oigh's sur youtube",
+  "dependencies": {}
+}
