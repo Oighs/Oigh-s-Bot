@@ -287,9 +287,12 @@ bot.on(("message"), async (msg)=>{
         m.delete();
         }
         if(command === "say") {
+	if(msg.author == config.creator) {
             const sayMessage = args.join(" ");
             msg.delete().catch(O_o=>{});
             msg.channel.send(sayMessage);
+	} else {
+	msg.channel.send("Tu n'est pas mon **Fondateur**")}
           }
         
         if(command === "kick") {
