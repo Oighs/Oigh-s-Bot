@@ -796,7 +796,7 @@ break;
         console.log(`${speudo}: Me execute`);
         break;
 
-        case "test":
+        case "wiki":
         if (msg.channel.type === "dm") return;
 			if(!msg.content.substr(5)) {
 				console.log(Date.now(), "DANGER", "Vous devez fournir un terme de recherche.");
@@ -885,6 +885,8 @@ break;
         var s = (Math.round(bot.uptime / 1000) % 60)
         var m = (Math.round(bot.uptime / (1000 * 60)) % 60)
         var h = (Math.round(bot.uptime / (1000 * 60 * 60)))
+	var j = (Math.round(bot.uptime / (1000 * 60 * 60 * 48)))
+	var M = (Math.round(bot.uptime / (1000 * 60 * 60 * 48 * 30 )))
         m = (m < 10) ? "0" + m : m;
         s = (s < 10) ? "0" + s : s;
         var servercount = bot.guilds.size;
@@ -899,7 +901,7 @@ break;
             .addField("Serveur(s)", servercount)
             .addField("Support", "En cours de programation...")
             .addField("Invite-moi !!", "→[**ICI**](http://bit.ly/2yax8KE)←")
-            .addField("Temps depuis le quel je suis connecté :", `${h} heure(s), ${m} minute(s), ${s} seconde(s)`)
+            .addField("Temps depuis le quel je suis connecté :", `${M} mois, ${j} jour(s), ${h} heure(s), ${m} minute(s), ${s} seconde(s)`)
             .addField("RAM :", `${Math.ceil(process.memoryUsage().heapTotal / 1000000)}`)
             .addField("Librarys du bot :", "`Disocord.js`, `LowDB`")
             .setFooter(`Oigh's Bot™-Oigh.minecraft@gmail.com`, bot.user.avatarURL)
