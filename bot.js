@@ -42,7 +42,7 @@ bot.on(("ready"), ()=> {
     function jeux() {
         
         
-          var answers = ['###aide|vChristmas-Exclusivity', '(ﾉ◕ヮ◕)', `${servercount} Guilds`, `${bot.users.size} Users`, "Joyeux Noël !!!!!!!"];
+          var answers = ['###aide|vHalloween🎃', '(ﾉ◕ヮ◕)', `${servercount} Guilds`, `${bot.users.size} Users`, "🎃🎃Joyeux Haloween🎃🎃"];
         
         
             return answers[Math.floor(Math.random()*answers.length)];
